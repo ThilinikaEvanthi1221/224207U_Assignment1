@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset files
+*.csv
+*.xlsx
+*.xls
+
+# Keep evaluation results
+!results/*.csv
+
+# Temporary files
+*.zip
+*.log
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

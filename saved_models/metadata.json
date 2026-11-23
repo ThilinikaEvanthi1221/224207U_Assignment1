@@ -1,0 +1,68 @@
+{
+  "features": [
+    "age_at_test",
+    "year",
+    "month",
+    "quarter",
+    "day_of_week",
+    "sex",
+    "institution"
+  ],
+  "numeric_features": [
+    "age_at_test",
+    "year",
+    "month",
+    "quarter",
+    "day_of_week"
+  ],
+  "categorical_features": [
+    "sex",
+    "institution"
+  ],
+  "institutions": [
+    "Institution_A",
+    "Institution_B",
+    "Institution_C",
+    "Institution_D"
+  ],
+  "sex_values": [
+    "F",
+    "M"
+  ],
+  "age_min": 0.0,
+  "age_max": 858.0,
+  "best_model": "LightGBM",
+  "best_params": {
+    "rf": {
+      "n_estimators": 200,
+      "min_samples_leaf": 10,
+      "max_depth": 8
+    },
+    "xgb": {
+      "subsample": 0.8,
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.05
+    },
+    "lgbm": {
+      "num_leaves": 15,
+      "n_estimators": 200,
+      "max_depth": 3,
+      "learning_rate": 0.03
+    },
+    "cat": {
+      "iterations": 300,
+      "depth": 6,
+      "learning_rate": 0.05
+    }
+  },
+  "versions": {
+    "sklearn": "1.6.1",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "joblib": "1.6.0"
+  }
+}
