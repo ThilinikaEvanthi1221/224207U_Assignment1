@@ -8,7 +8,6 @@ __pycache__/
 *.py[cod]
 
 # Dataset files
-*.csv
 *.xlsx
 *.xls
 

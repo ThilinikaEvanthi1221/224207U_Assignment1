@@ -1,0 +1,11 @@
+Feature,Importance
+num__age_at_test,0.4822342159473979
+cat__sex_M,0.21474240422214333
+cat__sex_F,0.20624018285329368
+num__year,0.036692494838130654
+num__month,0.02056491448654731
+cat__institution_Institution_C,0.010654428257621579
+num__day_of_week,0.009968838719766863
+cat__institution_Institution_B,0.008563089682476073
+cat__institution_Institution_D,0.006953200833254403
+num__quarter,0.0033862301593682565
